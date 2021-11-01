@@ -1,0 +1,101 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #187ff8;
+    color: white;
+}
+h1{
+    display: inline-block;
+    width: 40.8%;
+    font-size: 50px;
+    margin: 10px 0 0 10px;
+    color: black;
+}
+ul{
+    display: inline-block;
+    width: 57.8%;
+    color: white;
+    font-weight: 500;
+}
+li{
+    display: inline;
+    margin: 0 7%;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+li:hover{
+    border-bottom: 3px solid black;
+}
+
+@media only screen and (max-width: 1280px) {
+    ul{
+        display: block;
+        
+    }li{
+        display: inline;
+        margin: 10px;
+    }
+  }
+nav{
+    margin-bottom: 100px;
+}
+#left{
+    display: inline-block;
+    width: 40.8%;
+    margin-left: 10%;
+}
+#right{
+    width: 40.8%;
+    float: right;
+}
+h2{
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+#left #text{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+}
+input[type="text"]{
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #187ff8; 
+    font-size: 30px;
+}
+input[type="text"]:focus-visible{
+    outline: none;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    width: 65%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+form{
+    margin-bottom: 30px;
+}
+#validMail{
+    font-size: 17px;
+}
+@media only screen and (max-width: 1000px) {
+    ul{
+        display: block;
+        
+    }li{
+        display: inline;
+        margin: 10px;
+    }
+  }
